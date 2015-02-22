@@ -1,5 +1,5 @@
 ## rankhospital.R
-
+## test 1
 rankhospital <- function(state, outcome, num = "best") {
   ## Read outcome data
   data <- read.csv("/users/sriniwassriram/Documents/DataScienceProjects/datasciencecoursera/Data/Assignment3/outcome-of-care-measures.csv", colClasses = "character",na.strings="Not Available")
